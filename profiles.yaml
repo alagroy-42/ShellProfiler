@@ -1,0 +1,8 @@
+simple_profile:
+  dir: '~'
+  process:
+    IDE:
+      cmd: 'code'
+      args: '/path/'
+      depends_on:
+        - 'dir'

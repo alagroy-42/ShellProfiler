@@ -1,0 +1,11 @@
+profile_name:
+  shell: true/false
+  dir: /absolute/dir
+  process:
+    name:
+      cmd: command
+      args:
+        list
+        args
+      silent: true/false
+      depends_on: step/process name
