@@ -6,7 +6,7 @@ import yaml
 from src.profile import Profile
 from src.executer import Executer
 
-file = open('profiles.yaml', 'r')
+file = open(os.path.dirname(__file__) + '/profiles.yaml', 'r')
 profilesInfos = yaml.safe_load(file)
 profiles = list(profilesInfos)
 
